@@ -6,8 +6,17 @@
   --default-font-family: "Poppins", sans-serif;
 }
 
-body {
+body,
+header {
   font-family: var(--default-font-family);
+}
+
+header {
+  background: var(--secondary-color);
+}
+
+footer {
+  text-align: center;
 }
 
 h1,
@@ -57,6 +66,11 @@ p {
   line-height: normal;
 }
 
+.inquiry {
+  background: var(--secondary-color);
+  text-align: left;
+}
+
 .btn-branding {
   border-radius: 4px;
   background: var(--branding-color);
@@ -77,6 +91,20 @@ p {
 
 .project-description {
   padding: 120px 30px;
+}
+
+.links-navigation {
+  padding: 0 20px;
+  font-size: 16px;
+}
+
+.links-navigation a {
+  text-decoration: none;
+  color: var(--third-color);
+}
+
+.font-links {
+  color: #6c63ff;
 }
 
 @media (max-width: 960px) {
