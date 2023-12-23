@@ -45,6 +45,19 @@ p {
   line-height: 30px;
 }
 
+.logo {
+  max-height: 40px;
+}
+
+.active {
+  color: var(--branding-color) !important;
+}
+
+.nav-item {
+  padding: 0 10px;
+  line-height: 14px;
+}
+
 .hero {
   background: var(--secondary-color);
   text-align: center;
@@ -72,7 +85,7 @@ p {
 }
 
 .content-container {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 
 .content h1 {
@@ -118,16 +131,6 @@ p {
 
 .project-description {
   padding: 120px 30px;
-}
-
-.links-navigation {
-  padding: 0 20px;
-  font-size: 16px;
-}
-
-.links-navigation a {
-  text-decoration: none;
-  color: var(--third-color);
 }
 
 .font-links {
