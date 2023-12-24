@@ -11,10 +11,6 @@ header {
   font-family: var(--default-font-family);
 }
 
-header {
-  background: var(--secondary-color);
-}
-
 footer {
   text-align: center;
 }
@@ -45,17 +41,36 @@ p {
   line-height: 30px;
 }
 
+nav {
+  padding: 20px 0;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 44px;
+  margin-left: 15px;
+  opacity: 0.7;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--third-color);
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+li.active a {
+  color: var(--branding-color);
+}
+
 .logo {
-  max-height: 40px;
-}
-
-.active {
-  color: var(--branding-color) !important;
-}
-
-.nav-item {
-  padding: 0 10px;
-  line-height: 14px;
+  max-height: 44px;
 }
 
 .hero {
@@ -144,6 +159,9 @@ p {
   }
   h2 {
     font-size: 44px;
+  }
+  nav a {
+    font-size: 14px;
   }
   .hero {
     padding: 80px 20px;
